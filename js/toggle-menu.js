@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 $(document).ready(function () {
     // Загружаем подменю
-    $("#submenu-container").load("submenu.html", function () {
+    $("#submenu-container").load("./submenu.html", function () {
         // После загрузки инициализируем обработчики
         initSubmenuHandlers();
         if (window.innerWidth > 610) {
