@@ -1,18 +1,18 @@
 body {
   background: #b1b1b1;
   margin: 0;
-  font-family: Inter Tight, serif;
+  font-family: Inter Tight, sans-serif;
 }
 
 @font-face {
   font-family: "Inter Tight";
-  src: url("/fonts/InterTight-Regular.ttf") format("truetype");
+  src: url("../fonts/InterTight-Regular.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
   font-family: "Inter Tight";
-  src: url("/fonts/InterTight-Bold.ttf") format("truetype");
+  src: url("../fonts/InterTight-Bold.woff2") format("woff2");
   font-weight: 700;
   font-style: normal;
 }
